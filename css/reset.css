@@ -1,0 +1,175 @@
+@charset "UTF-8";
+body,ul,li,p,h2,dl,dt,dd{margin:0;padding:0;}
+body{font:12px "微软雅黑";min-width:1226px;}
+ul,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+.bg-color{
+	width:100%;
+	height:6830px;
+	background-color:#efefef;
+}
+.desc{
+	color:#b0b0b0;
+}
+p.price span{
+	color:#ff6700;
+}
+p.price del{
+	color:#b0b0b0;
+}
+
+/*HA star*/
+	#HA{
+		position:relative;
+		width:1226px;
+		margin:0 auto;
+	}
+	#HA .H-header{
+		width:100%;
+		line-height:50px;
+	}
+	#HA .H-header h2{
+		font-weight:100;
+		font-size:21px;
+	}
+	#HA .H-header ul{
+		position:absolute;
+		top:0;
+		right:0;
+	}
+	#HA .H-header ul li{
+		position:relative;
+		float:left;
+		margin-left:30px;
+		font-size:17px;
+	}
+	#HA .H-header ul li span{
+		position:absolute;
+		top:40px;
+		left:0;
+		width:30px;
+		border:1px solid #ff6700;
+		display:none;
+	}
+	#HA .H-header ul li:nth-child(2) span{
+		width:65px;
+	}
+	#HA .H-header ul li:hover a,
+	#HA .H-header ul li:hover span{
+		color:#ff6700;
+		display:block;
+	}
+	#HA .H-content{
+		width:100%;
+		height:611px;
+	}
+	#HA .H-content li{
+		position:relative;
+		float:left;
+		width:234px;
+		height:300px;
+		background-color:#fff;
+		text-align:center;
+	}
+	#HA .H-content li.first img{
+		width:234px;
+		height:300px;
+	}
+	#HA .H-content li.second img{
+		width:150px;
+		height:150px;
+		margin-top:30px;
+	}
+	#HA .H-content li.second{
+		float:right;
+		margin-left:14px;
+	}
+	#HA .H-content li.second h3{
+		margin:5px 0;
+	}
+	#HA .H-content li.last{
+		background-color:#efefef;
+	}
+	#HA .H-content li.last li{
+		position:relative;
+		width:100%;
+		height:143px;
+	}
+	#HA .H-content li.last li > div{
+		float:left;
+		margin:45px 0 0 30px;
+	}
+	#HA .H-content li.last div > p{
+		margin-bottom:10px;
+		font-size:14px;
+	}
+	#HA .H-content li.last div > span.price{
+		margin-left:-40px;
+		color:#ff6700;
+	}
+	#HA .H-content li.last div > h2{
+		font-weight:normal;
+	}
+	#HA .H-content li.last div > small{
+		margin-left:-40px;
+		color:#757575;
+	}
+	#HA .H-content li.last i.iconfont{
+		position:absolute;
+		top:41px;
+		right:40px;
+		font-size:55px;
+		font-weight:400;
+		color:#ff6700;
+	}
+	#HA .H-content li.last li img{
+		width:80px;
+		height:80px;
+		float:right;
+		margin-right:20px;
+	}
+	#HA .H-content li.last li:nth-child(1){
+		margin-bottom:14px;
+	}
+	#HA .H-content li.up{
+		margin-bottom:11px;
+	}
+	#HA .H-content li.second p.desc{
+		margin-bottom:20px;
+	}
+	#HA .H-content li.fl:hover,
+	#HA .H-content li.l-up:hover{
+		box-shadow:0px 10px 10px 5px #dadada;
+		transform:translateY(-5px);
+		transition:0.5s;
+	}
+	#HA .H-content li.second .H-c-hide{
+		position:absolute;
+		bottom:0px;
+		left:0;
+		width:100%;
+		height:0px;
+		background-color:#ff6700;
+		z-index:33;
+		opacity:0;
+	}
+	#HA .H-content li.second .H-c-hide p.review{
+		width:176px;
+		text-align:left;
+		color:#fff;
+		margin:10px auto 5px;
+	}
+	#HA .H-content li.second .H-c-hide span.author{
+		margin-left:-75px;
+		color:rgba(255,255,255,0.6);
+	}
+	#HA .H-content li:hover .H-c-hide{
+		display:block;
+		height: 75px;
+		transition:0.5s;
+		opacity:1;
+	}
+	#HA .H-visible img{
+		width:100%;
+		margin:40px auto;
+	}
